@@ -1,0 +1,211 @@
+[
+  {
+    "case_id": "GRC-001",
+    "category": "approval_threshold",
+    "difficulty": "medium",
+    "document_ids": [
+      "P01"
+    ],
+    "question": "A requester submits a PR for LKR 85,000. Which approval is needed before the PO is issued?",
+    "reference_points": [
+      "85,000 is at or below 100,000",
+      "Line manager approval required before PO issuance"
+    ],
+    "red_flags": [
+      "Department head and finance manager are both required for this amount"
+    ]
+  },
+  {
+    "case_id": "GRC-002",
+    "category": "approval_threshold",
+    "difficulty": "challenging",
+    "document_ids": [
+      "P01"
+    ],
+    "question": "A requester submits a PR for exactly LKR 100,000. Is this above the approval threshold, and who must approve?",
+    "reference_points": [
+      "Exactly 100,000 is not above 100,000",
+      "Line manager approval before PO"
+    ],
+    "red_flags": [
+      "Claim exactly 100,000 requires both department head and finance manager"
+    ]
+  },
+  {
+    "case_id": "GRC-003",
+    "category": "approval_threshold",
+    "difficulty": "medium",
+    "document_ids": [
+      "P01"
+    ],
+    "question": "A requester submits a PR for LKR 145,000, but only the line manager approves it. Identify the control gap and next step.",
+    "reference_points": [
+      "Above threshold requires department head approval",
+      "Also requires finance manager approval",
+      "Both before PO issuance",
+      "Flag missing approval and do not assert fraud"
+    ],
+    "red_flags": [
+      "Line-manager-only approval is sufficient",
+      "Automatically declare fraud"
+    ]
+  },
+  {
+    "case_id": "GRC-004",
+    "category": "segregation_of_duties",
+    "difficulty": "medium",
+    "document_ids": [
+      "P01"
+    ],
+    "question": "A department head approves their own LKR 50,000 purchase request. Is that compliant?",
+    "reference_points": [
+      "Requester may not approve their own PR regardless of title",
+      "This is a segregation-of-duties exception requiring independent approval"
+    ],
+    "red_flags": [
+      "Self-approval is fine under the threshold"
+    ]
+  },
+  {
+    "case_id": "GRC-005",
+    "category": "split_purchase",
+    "difficulty": "challenging",
+    "document_ids": [
+      "P01"
+    ],
+    "question": "Two PRs (LKR 70,000 and LKR 65,000) were raised by the same requester for the same supplier and category two calendar days apart. What should an auditor conclude?",
+    "reference_points": [
+      "Combined total 135,000 exceeds 100,000",
+      "Within three calendar days",
+      "Flag a potential split for human review",
+      "Not proof of fraud or actual loss"
+    ],
+    "red_flags": [
+      "Confirmed fraud",
+      "Confirmed LKR 135,000 loss"
+    ]
+  },
+  {
+    "case_id": "GRC-006",
+    "category": "split_purchase",
+    "difficulty": "challenging",
+    "document_ids": [
+      "P01"
+    ],
+    "question": "The same requester buys LKR 70,000 and LKR 65,000 from the same supplier in the same category, but five calendar days apart. Does P01’s specific split-purchase screening rule trigger?",
+    "reference_points": [
+      "Five days is outside the three-calendar-day window",
+      "This specific rule does not trigger by itself",
+      "Other controls could still apply"
+    ],
+    "red_flags": [
+      "Definitely compliant in every respect",
+      "Confirmed fraud"
+    ]
+  },
+  {
+    "case_id": "GRC-007",
+    "category": "duplicate_invoice",
+    "difficulty": "medium",
+    "document_ids": [
+      "P02"
+    ],
+    "question": "Two invoice records have the same supplier ID, invoice number and currency. What control action is appropriate?",
+    "reference_points": [
+      "Potential invoice duplicate",
+      "Flag for investigation and hold payment pending review",
+      "Do not treat as proven loss or fraud"
+    ],
+    "red_flags": [
+      "Automatically proven fraud",
+      "Pay both without review"
+    ]
+  },
+  {
+    "case_id": "GRC-008",
+    "category": "payment_matching",
+    "difficulty": "medium",
+    "document_ids": [
+      "P02"
+    ],
+    "question": "Accounts Payable has an approved PO and supplier invoice but no goods receipt or documented service acceptance. Should payment be released?",
+    "reference_points": [
+      "Three-way match requires PO, receipt or acceptance, and invoice",
+      "Hold payment and seek the missing evidence",
+      "Do not invent missing receipt"
+    ],
+    "red_flags": [
+      "Release payment because two of three documents exist"
+    ]
+  },
+  {
+    "case_id": "GRC-009",
+    "category": "bank_change",
+    "difficulty": "medium",
+    "document_ids": [
+      "P02"
+    ],
+    "question": "A supplier emails new bank account information and asks for an immediate payment update. What verification is needed?",
+    "reference_points": [
+      "Independent callback to a previously verified supplier phone number",
+      "Retain verification evidence",
+      "Email alone is insufficient"
+    ],
+    "red_flags": [
+      "Use new phone number supplied in the email as sole proof",
+      "Change without verification"
+    ]
+  },
+  {
+    "case_id": "GRC-010",
+    "category": "third_party_governance",
+    "difficulty": "medium",
+    "document_ids": [
+      "P03"
+    ],
+    "question": "How often must High-risk suppliers be reviewed, and what should the record contain?",
+    "reference_points": [
+      "High-risk supplier reviews are quarterly",
+      "Record decisions, ownership, and follow-up actions"
+    ],
+    "red_flags": [
+      "Monthly is specified",
+      "No review documentation needed"
+    ]
+  },
+  {
+    "case_id": "GRC-011",
+    "category": "access_governance",
+    "difficulty": "medium",
+    "document_ids": [
+      "P03"
+    ],
+    "question": "HR sends the official departure notice for a finance employee. What access-control deadline applies?",
+    "reference_points": [
+      "Revoke access within 24 hours of official HR departure notice",
+      "Retain evidence of action"
+    ],
+    "red_flags": [
+      "Within 24 hours of employee resignation regardless of when HR notifies",
+      "No recorded evidence needed"
+    ]
+  },
+  {
+    "case_id": "GRC-012",
+    "category": "uncertainty_and_non_invention",
+    "difficulty": "challenging",
+    "document_ids": [
+      "P03"
+    ],
+    "question": "According to P03, must every supplier have ISO 27001 certification? Be explicit about what the document establishes and what it does not.",
+    "reference_points": [
+      "P03 does not state such a requirement",
+      "Cannot conclude other laws or policies have no requirement",
+      "Do not invent mandatory certification"
+    ],
+    "red_flags": [
+      "P03 mandates ISO 27001 certification",
+      "No organization anywhere requires ISO 27001 certification"
+    ]
+  }
+]

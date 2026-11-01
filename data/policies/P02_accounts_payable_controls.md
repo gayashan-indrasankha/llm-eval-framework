@@ -1,0 +1,16 @@
+# P02 — Synthetic Accounts Payable and Payment Controls
+**Fictional company:** Serendib Services Ltd. **Revision:** 1.0. **Status:** Synthetic evaluation fixture, not real legal or company policy.
+
+## Payment authorization
+1. Before releasing a payment, Accounts Payable must complete a **three-way match** between the approved purchase order, the goods receipt or documented service acceptance, and the supplier invoice.
+2. If one item in the three-way match is missing or materially inconsistent, **hold payment** and request review; do not invent the missing evidence.
+3. Payments require the approvals specified in procurement policy **P01**, or an applicable recorded written CFO exception.
+
+## Duplicate controls
+4. Two invoice records with the **same supplier ID, invoice number, and currency** are a **potential invoice duplicate** and should be flagged for investigation and held pending review.
+5. Multiple **completed full payments for the same invoice** are a potential duplicate-payment exception. Validate payment status and whether a payment was partial or reversed before concluding a duplicate occurred.
+6. A potential duplicate is **not automatically established as financial loss or fraud**.
+
+## Bank changes and alert handling
+7. Before changing supplier bank details, verify the request by **independently calling the supplier on a previously verified phone number**, and retain verification evidence. An email asking for the change is not sufficient by itself.
+8. Assign High-severity exception alerts for human review within **two business days**; Medium-severity alerts within **five business days**. The timeline is a review target, not a promise that an issue is resolved.

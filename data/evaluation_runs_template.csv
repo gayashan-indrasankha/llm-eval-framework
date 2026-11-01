@@ -1,0 +1,1 @@
+run_id,case_id,product,product_variant,visible_model_name,trial,run_date_local,prompt_sha256,response_file,accuracy_0to4,coverage_0to4,groundedness_0to4,instruction_following_0to4,clarity_0to4,risk_awareness_0to4,hallucination_count,evaluator,comments
