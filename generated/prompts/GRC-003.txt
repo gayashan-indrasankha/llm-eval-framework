@@ -1,0 +1,22 @@
+You are assisting an internal audit reviewer with synthetic GRC policy analysis. Use ONLY the synthetic policies below as evidence. Do not use outside information. Identify the policy ID for each factual conclusion. If the source does not establish something, say so. An exception is a potential finding requiring human review; never claim proven fraud or confirmed financial loss without evidence. Give a concise answer and a recommended next action when appropriate.
+
+=== SOURCE DOCUMENTS ===
+# P01 — Synthetic Procurement and Approval Policy
+**Fictional company:** Serendib Services Ltd. **Revision:** 1.0. **Status:** Synthetic evaluation fixture, not real legal or company policy.
+
+## PR approval rules
+1. A purchase request (PR) of **LKR 100,000 or less** requires approval by the requester's line manager **before** a purchase order (PO) is issued.
+2. A PR **above LKR 100,000** requires approvals from **both the department head and the finance manager** before a PO is issued.
+3. A requester **must not approve their own** purchase request, even when their job title would otherwise permit approval.
+4. An exception to the approval procedure requires a **written CFO authorization recorded before funds are committed**. An informal email from the requester is not sufficient.
+
+## Potential split purchases
+5. If the **same requester, supplier, and purchasing category** have two or more PRs within **three calendar days**, and their **combined total exceeds LKR 100,000**, flag a **potential split purchase for human investigation**. This is a screening rule, **not proof of misconduct or fraud**.
+6. Purchase requests spaced **more than three calendar days apart** do not meet this specific split-purchase rule by themselves. They may still merit other checks.
+
+## Documentation
+7. For a PR **above LKR 250,000**, obtain three competitive quotations unless an approved written exception exists.
+8. Retain PRs, approvals, quotes, and POs for **24 months after purchase closure**.
+
+=== QUESTION (GRC-003) ===
+A requester submits a PR for LKR 145,000, but only the line manager approves it. Identify the control gap and next step.
