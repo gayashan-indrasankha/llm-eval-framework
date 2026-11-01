@@ -1,0 +1,23 @@
+**Conclusion (P01, Rule 5):** These PRs meet the screening criteria for a **potential split purchase**:
+- Same requester, supplier and purchasing category.
+- Raised two calendar days apart, which is within the three-day window.
+- Combined total of LKR 135,000, which exceeds LKR 100,000.
+
+The auditor should **flag this for human investigation**. Rule 5 states this is a screening rule, not proof of misconduct or fraud, so the auditor should not conclude intent, fraud, or financial loss.
+
+**Why it matters (P01, Rules 1–2):** Each PR on its own falls under the LKR 100,000 line manager threshold. Combined, they would have required department head and finance manager approval. Splitting would let the purchase avoid the higher approval level, which is why it needs review.
+
+**What the source does not establish:**
+- Who approved each PR, or whether any approval was given before the PO (P01, Rules 1 and 3).
+- Whether a written CFO exception exists (P01, Rule 4).
+- Whether there is a legitimate business reason for two separate requests.
+- Whether any POs were issued or funds committed.
+
+**Not applicable:** Three quotations are not required, because neither PR nor the combined total exceeds LKR 250,000 (P01, Rule 7).
+
+**Recommended next action:**
+1. Record the flag as a potential exception.
+2. Obtain both PRs, their approvals and POs, and confirm the approvers were not the requester (P01, Rules 1 and 3).
+3. Check for any written CFO authorization (P01, Rule 4).
+4. Ask the requester and approver to explain the business reason for separate requests.
+5. Retain all records (P01, Rule 8) and escalate to the responsible reviewer for disposition.

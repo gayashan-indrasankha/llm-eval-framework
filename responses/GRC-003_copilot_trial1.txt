@@ -1,0 +1,8 @@
+Control gap:
+ The PR amount is LKR 145,000, which is above LKR 100,000. Therefore, it requires approvals from both the department head and the finance manager before a PO is issued. Only the line manager approved it, so the required approval control was not completed. Policy ID: P01, Rule 2.
+
+Additional consideration:
+ There is no indication of a valid exception. An exception would require written CFO authorization recorded before funds are committed; the scenario does not mention such authorization. Policy ID: P01, Rule 4.
+
+Recommended next step:
+ Do not issue the PO or commit funds until the required approvals from the department head and finance manager are obtained, unless a properly documented CFO exception exists. Review the approval workflow to ensure compliance with P01 Rule 2 and check whether any valid exception documentation exists under P01 Rule 4.

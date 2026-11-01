@@ -1,0 +1,17 @@
+Auditor conclusion:
+
+This scenario meets the policy's potential split-purchase screening rule because:
+
+There are two PRs.
+They were raised by the same requester.
+They involve the same supplier and purchasing category.
+They were raised two calendar days apart (within the three-day threshold).
+Their combined value is LKR 135,000 (LKR 70,000 + LKR 65,000), which exceeds LKR 100,000.
+
+Therefore, the auditor should flag this as a potential split purchase for human investigation. Policy ID: P01, Rule 5.
+
+Important limitation:
+ The policy explicitly states that this is a screening rule only and is not proof of misconduct or fraud. Policy ID: P01, Rule 5.
+
+Recommended next step:
+ Conduct a human review to determine whether the purchases were legitimately separate transactions or whether additional procurement controls should have applied. Do not conclude misconduct based solely on the information provided. Policy ID: P01, Rule 5.

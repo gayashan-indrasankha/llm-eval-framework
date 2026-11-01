@@ -1,0 +1,17 @@
+**Control gap (P01, Rule 2):** A PR of LKR 145,000 is above the LKR 100,000 threshold, so it needs approval from **both the department head and the finance manager** before a PO is issued. Line manager approval meets only the requirement for PRs of LKR 100,000 or less (P01, Rule 1), so it is not sufficient here. This is a **potential finding requiring human review**. It is not evidence of fraud or financial loss.
+
+**What the source does not establish:**
+- Whether a PO was actually issued or funds committed. The gap is a breach only if the PO went out before the required approvals (P01, Rule 2).
+- Whether the line manager also holds the department head role. Even then, finance manager approval would still be missing.
+- Whether a written CFO authorization for an exception was recorded before funds were committed (P01, Rule 4). An informal email from the requester would not count.
+- Whether the requester approved their own PR (P01, Rule 3). Nothing indicates this.
+- Whether related PRs exist that would trigger the split-purchase screen (P01, Rules 5–6).
+
+**Not applicable:** Three competitive quotations are not required, because LKR 145,000 does not exceed LKR 250,000 (P01, Rule 7).
+
+**Recommended next action:**
+1. Check the PR and PO records to see whether a PO was issued and when.
+2. Look for department head and finance manager approvals, or a pre-dated written CFO exception (P01, Rules 2 and 4).
+3. Screen for other PRs from the same requester, supplier and category within three calendar days (P01, Rule 5).
+4. Retain all related records (P01, Rule 8).
+5. Escalate to the responsible reviewer for disposition.
