@@ -1,0 +1,13 @@
+**No, P01's specific split-purchase screening rule does not trigger.**
+
+**Why:**
+- The rule needs the same requester, supplier and category, two or more PRs **within three calendar days**, and a combined total **above LKR 100,000** (P01, rule 5).
+- The requester, supplier and category match, and the combined total of LKR 135,000 is above the threshold.
+- The time-window condition fails. The PRs are five calendar days apart, and PRs spaced **more than three calendar days apart** do not meet this rule by themselves (P01, rule 6).
+
+**Other points from the source:**
+- Each PR is LKR 100,000 or less, so each needs line-manager approval before a PO is issued (P01, rule 1). The scenario doesn't say whether that approval was obtained, so compliance on that point is not established.
+- Neither PR is above LKR 250,000, so the three-quotation requirement doesn't apply (P01, rule 7).
+- Rule 6 notes that such PRs "may still merit other checks," but P01 does not define what those checks are.
+
+**Recommended next action:** Don't record a split-purchase flag under rule 5. Confirm that each PR had line-manager approval before its PO, and that the requester did not approve their own PR (P01, rules 1 and 3). If the reviewer is still concerned about the pattern, refer it for human judgment under the broader "other checks" language in rule 6. Treat this as a potential observation only, not evidence of misconduct.

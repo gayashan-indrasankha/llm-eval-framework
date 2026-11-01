@@ -1,0 +1,17 @@
+Answer: No.
+
+According to P03, the document explicitly states that it does not state that suppliers must hold ISO 27001 certification. (P03, Supplier Governance #3)
+
+What the document establishes:
+
+P03 does not include a requirement that every supplier have ISO 27001 certification. (P03-3)
+
+What the document does not establish:
+
+It does not establish that suppliers are required to be ISO 27001 certified. (P03-3)
+It does not establish that suppliers are prohibited from being ISO 27001 certified. (P03-3)
+It does not make any conclusion about external laws, regulations, or other company policies that might impose such a requirement. (P03-3)
+
+Conclusion: Based solely on P03, there is no stated requirement that every supplier must have ISO 27001 certification. (P03-3)
+
+Recommended next action: If an audit objective requires determining whether ISO 27001 certification is mandatory, review other applicable policies, contractual requirements, or regulatory documents, because P03 alone does not provide that requirement. (P03-3)

@@ -1,0 +1,15 @@
+No.
+
+Under P01 Rule 5, the specific split-purchase screening rule triggers only when the same requester, supplier, and purchasing category have two or more PRs within three calendar days and the combined total exceeds LKR 100,000. (Policy ID: P01)
+
+In this scenario:
+
+Same requester, supplier, and category: Yes
+Combined total: LKR 70,000 + LKR 65,000 = LKR 135,000 (exceeds LKR 100,000)
+Timing: Five calendar days apart
+
+Because the PRs are five calendar days apart, they do not satisfy the “within three calendar days” condition. Rule 6 explicitly states that purchase requests more than three calendar days apart do not meet this specific split-purchase rule by themselves. (Policy ID: P01)
+
+Conclusion: The specific split-purchase screening rule does not trigger under P01. (Policy ID: P01)
+
+Recommended next action: No split-purchase flag is required under P01 Rule 5. However, Rule 6 notes that transactions more than three days apart may still merit other checks, so an auditor could perform any additional review procedures considered appropriate. (Policy ID: P01)

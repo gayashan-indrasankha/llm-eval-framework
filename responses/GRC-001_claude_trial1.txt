@@ -1,0 +1,11 @@
+**Answer:** The requester's **line manager** must approve the PR before the PO is issued, because LKR 85,000 is within the LKR 100,000-or-less threshold (P01, Rule 1).
+
+**Related points:**
+- The requester cannot approve their own PR, even if their job title would otherwise allow it (P01, Rule 3).
+- Department head and finance manager approval is not required. That applies only to PRs above LKR 100,000 (P01, Rule 2).
+- Three competitive quotations are not required. That applies only to PRs above LKR 250,000 (P01, Rule 7).
+- The PR, approval and PO must be kept for 24 months after purchase closure (P01, Rule 8).
+
+**Not established by the source:** Whether this requester has other PRs with the same supplier and purchasing category within three calendar days. If they do and the combined total exceeds LKR 100,000, it would be flagged as a potential split purchase for human investigation. This is a screening flag, not proof of misconduct (P01, Rules 5–6).
+
+**Recommended next action:** Confirm that the line manager's approval is dated before the PO and that the approver is not the requester. Then check the requester's PRs from the surrounding three-day window for the same supplier and category to rule out a split-purchase flag.

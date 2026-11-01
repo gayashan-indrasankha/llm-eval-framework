@@ -1,0 +1,9 @@
+Answer: A purchase request (PR) for LKR 85,000 requires approval by the requester's line manager before a purchase order (PO) is issued, because the PR amount is LKR 100,000 or less. Policy ID: P01, Rule 1.
+
+Conclusion:
+
+Required approval: Line manager approval before PO issuance. (P01-1)
+
+Recommended next action:
+
+Verify that the requester's line manager approved the PR before the PO was issued, and ensure the requester did not approve their own PR. (P01-1, P01-3)

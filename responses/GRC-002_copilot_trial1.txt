@@ -1,0 +1,14 @@
+No. A purchase request (PR) for exactly LKR 100,000 is not above the approval threshold. Under the policy, a PR of LKR 100,000 or less requires approval by the requester's line manager before a purchase order (PO) is issued. Policy ID: P01, Rule 1.
+
+Conclusion:
+
+PR amount: LKR 100,000
+Above threshold? No (it falls within “LKR 100,000 or less”). Source: P01 Rule 1.
+Required approval: Requester’s line manager before PO issuance. Source: P01 Rule 1.
+
+Additional consideration:
+
+The requester may not approve their own PR, even if their role would otherwise allow approvals. Source: P01 Rule 3.
+
+Recommended next action:
+ Verify that the PR received documented approval from the requester’s line manager prior to PO issuance, and confirm the requester did not self-approve. Sources: P01 Rules 1 and 3.

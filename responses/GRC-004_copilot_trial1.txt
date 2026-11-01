@@ -1,0 +1,9 @@
+No, it is not compliant.
+
+The purchase request is LKR 50,000, so it falls within the approval threshold where approval is required before a PO is issued. (P01, Rule 1)
+Regardless of authority level or job title, a requester must not approve their own purchase request. (P01, Rule 3)
+In this scenario, the department head is the requester and approver, which violates the self-approval prohibition. (P01, Rule 3)
+
+Conclusion: Non-compliant due to self-approval. Policy ID: P01 (Rule 3).
+
+Recommended next action: Route the PR to an independent authorized approver and review whether any PO was issued based on the improper approval. If an exception was intended, verify whether there was a written CFO authorization recorded before funds were committed. (P01, Rule 4)
