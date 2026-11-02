@@ -1,0 +1,5 @@
+Control action: Flag the records as a potential invoice duplicate and hold them pending investigation/review. This is because two invoice records with the same supplier ID, invoice number, and currency meet the policy definition of a potential invoice duplicate. Policy ID: P02, Control 4.
+
+Important limitation: The policy does not allow concluding that a duplicate payment, financial loss, or fraud has occurred based solely on matching invoice records. Such conclusions require further validation and review. Policy ID: P02, Controls 5-6.
+
+Recommended next action: Investigate the duplicate flag, validate payment status, and determine whether any payment was partial or reversed before concluding a duplicate-payment exception occurred. Policy ID: P02, Control 5.

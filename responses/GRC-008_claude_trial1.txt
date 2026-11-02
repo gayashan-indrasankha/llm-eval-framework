@@ -1,0 +1,13 @@
+**No. Payment should not be released.** Put it on hold and request review.
+
+**Basis (P02):**
+- **Three-way match is required before payment (P02, item 1).** Accounts Payable must match the approved PO, the goods receipt or documented service acceptance, and the supplier invoice. Here the goods receipt or service acceptance is missing, so the match is incomplete.
+- **A missing item means hold, not proceed (P02, item 2).** Payment must be held and review requested. AP must not invent or backfill the missing evidence.
+- **Approvals are a separate condition (P02, item 3).** Payment also needs the approvals in P01, or a recorded written CFO exception. P01 is not among the provided sources, so I can't assess whether its approval requirements are met.
+
+**What the sources don't establish:**
+- Whether the goods or services were actually delivered. The absence of a receipt is a documentation gap, not proof of non-delivery, fraud, or loss.
+- Whether a CFO exception (P02, item 3) can override a failed three-way match. Item 3 ties the CFO exception to approval requirements, not to the three-way match in items 1–2. This should be treated as unresolved and confirmed by a human reviewer.
+- What severity this exception should carry, so no review timeline under P02, item 8 can be assigned from the sources alone.
+
+**Recommended next action:** Place the payment on hold. Ask the receiving department or service owner for a goods receipt or documented service acceptance. Do not create one retroactively without genuine evidence. Release payment only after the three-way match is complete and the P01 approvals are confirmed. Log this as a potential exception for human review.

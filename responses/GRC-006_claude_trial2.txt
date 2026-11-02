@@ -1,0 +1,11 @@
+**No, P01's specific split-purchase screening rule does not trigger.**
+
+- **Spacing:** Rule 5 (P01) requires two or more PRs from the same requester, supplier and category **within three calendar days**. Five days apart fails that condition. Rule 6 (P01) says PRs **more than three calendar days apart** do not meet this rule by themselves.
+- **Combined total:** The total is LKR 135,000 (70,000 + 65,000), which does exceed the LKR 100,000 threshold in Rule 5 (P01). The rule still does not trigger, because the timing condition fails.
+- **Approval level:** Each PR is LKR 100,000 or less, so each needs line-manager approval before a PO is issued (P01, Rule 1). The 3-quote requirement does not apply to either PR (P01, Rule 7, which applies above LKR 250,000).
+- **What P01 does not establish:** P01 defines no other check for this pattern. Rule 6 only says such PRs "may still merit other checks" and does not specify what those checks are. Nothing here indicates misconduct.
+
+**Recommended next action:** Mark the pair as "rule not triggered." Then:
+1. Confirm the PR dates are accurate.
+2. Verify that each PR had line-manager approval before its PO was issued, and that the requester did not approve their own PR (P01, Rules 1 and 3).
+3. Use reviewer judgment on whether to look at this supplier's or requester's wider purchasing pattern under Rule 6. Treat any concern as a matter for human review, not a finding of a split purchase.

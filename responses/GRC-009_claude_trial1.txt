@@ -1,0 +1,12 @@
+**Answer (P02, item 7):** The email is not enough to change the supplier's bank details. Before any change is made:
+
+1. **Independent call-back.** Accounts Payable must call the supplier on a phone number that was verified before this request. A number or contact given in the email itself does not meet this requirement.
+2. **Retain evidence.** Keep a record of the verification, such as who called, when, the number used and the outcome.
+
+**Additional points from the source:**
+- **Urgency does not change the requirement.** P02 provides no expedited or emergency exception for bank-detail changes. The request for an "immediate" update does not remove the call-back step. The P02 item 3 CFO exception covers payment *approvals*, not bank-change verification.
+- **Payment release controls still apply.** Any payment to the supplier still needs the three-way match (P02, item 1) and the approvals required under P01, or a recorded written CFO exception (P02, item 3). P01's content is not included here, so the specific approvers cannot be confirmed.
+- **Not established by the source:** P02 does not say whether an unverified bank-change request should be raised as an exception alert, or what severity it would get. If it is logged, the review targets are two business days for High and five for Medium (P02, item 8). These are review targets, not resolution commitments.
+- **No conclusion of fraud.** This request is a control trigger that needs verification. Nothing in the source establishes fraud or loss.
+
+**Recommended next action:** Hold the bank-detail change and do not pay to the new account. Call the supplier on the previously verified number and keep the evidence. Send the request to a human reviewer for any escalation decision, since P02 does not define an alert category for it.

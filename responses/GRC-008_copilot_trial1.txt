@@ -1,0 +1,7 @@
+No. Payment should not be released.
+
+Conclusion: Accounts Payable has the approved PO and supplier invoice, but is missing the goods receipt or documented service acceptance, so the required three-way match is incomplete. Under the policy, payment must be held pending review. Policy ID: P02 §1.
+
+Additionally, when one item required for the three-way match is missing, the policy instructs Accounts Payable to hold payment and request review and not invent missing evidence. Policy ID: P02 §2.
+
+Recommended next action: Obtain the missing goods receipt or documented service acceptance (or other valid evidence required by the policy) and complete the review before any payment is released. Policy ID: P02 §2.

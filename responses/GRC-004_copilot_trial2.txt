@@ -1,0 +1,16 @@
+Conclusion: No, it is not compliant.
+
+Reasoning:
+
+The purchase request (PR) is for LKR 50,000, which would normally require approval by the requester's line manager before a PO is issued. (P01 Rule 1)
+Regardless of approval authority, a requester must not approve their own purchase request. (P01 Rule 3)
+In this scenario, the department head is the requester and approves their own PR, which violates the self-approval prohibition. (P01 Rule 3)
+
+Relevant Policy IDs:
+
+P01-1: PRs of LKR 100,000 or less require line manager approval before PO issuance.
+P01-3: A requester must not approve their own purchase request.
+
+Recommended next action:
+
+Route the PR to an appropriate independent approver in accordance with the approval workflow and review whether any PO was issued based on the improper self-approval. (Based on P01-1 and P01-3.)

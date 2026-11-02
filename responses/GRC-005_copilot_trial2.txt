@@ -1,0 +1,18 @@
+Conclusion: This meets the policy criteria for a potential split purchase that should be flagged for human investigation, but it is not proof of misconduct or fraud.
+
+Reasoning:
+
+The two PRs are for LKR 70,000 and LKR 65,000, giving a combined total of LKR 135,000.
+They were raised by the same requester, for the same supplier and same purchasing category.
+They occurred two calendar days apart, which is within the policy's three-calendar-day window.
+Because the combined total exceeds LKR 100,000, the transaction pattern matches the policy's split-purchase screening rule. (Policy P01, Rule 5)
+
+What an auditor should not conclude:
+
+The auditor should not conclude that policy circumvention, misconduct, fraud, or financial loss has been proven, because the policy explicitly states that this rule is a screening rule only and not proof of misconduct or fraud. (Policy P01, Rule 5)
+
+Recommended next action:
+
+Flag the transactions for human investigation and review supporting documentation, approvals, business justification, timing, and any other relevant procurement records. (Policy P01, Rule 5)
+
+Supporting Policy ID: P01, Rule 5.

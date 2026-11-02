@@ -1,0 +1,16 @@
+**No, it is not compliant.** This is a potential finding that needs human review.
+
+**Why**
+- **P01, Rule 3:** A requester must not approve their own purchase request, even if their job title would otherwise allow it. Being a department head does not change this.
+- **P01, Rule 1:** A PR of LKR 100,000 or less, which includes LKR 50,000, needs approval from the requester's **line manager** before a PO is issued. A self-approval does not meet this requirement.
+
+**What the source does not establish**
+- Whether a written CFO authorization was recorded before funds were committed. Under **P01, Rule 4**, that is the only valid exception to the approval procedure, and an informal email from the requester would not count.
+- Whether a PO was actually issued or funds committed. Without that, the finding can't be graded further.
+- Any intent, fraud, or financial loss. P01 gives no basis for those conclusions.
+
+**Recommended next action**
+1. Check whether the department head's line manager approved the PR before the PO was issued.
+2. Check whether a written CFO exception authorization exists that was recorded before funds were committed.
+3. If neither exists, log this as a segregation-of-duties exception for human review.
+4. Confirm the PR, approval trail, and PO are retained under **P01, Rule 8** (24 months after purchase closure).

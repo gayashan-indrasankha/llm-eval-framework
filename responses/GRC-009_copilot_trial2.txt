@@ -1,0 +1,11 @@
+Answer:
+ A supplier email requesting new bank account details is not sufficient on its own to authorize a bank account change. Before changing the supplier's bank details, the company must:
+
+Independently call the supplier using a previously verified phone number to verify the request.
+Retain evidence of the verification performed.
+Not rely solely on the email request for the change.
+
+Policy source: P02, Control 7.
+
+Recommended next action:
+ Place the bank-detail change request into the verification process, contact the supplier through the previously verified phone number, document the verification, and only then proceed with any bank account update if the request is confirmed. (P02-7)

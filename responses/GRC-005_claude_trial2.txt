@@ -1,0 +1,28 @@
+**Conclusion: flag this as a potential split purchase for human investigation (P01, Rule 5).** It is a screening exception, not a finding of misconduct or fraud.
+
+**Why it meets the rule (P01, Rule 5)**
+- The two PRs have the same requester, supplier and purchasing category.
+- They were raised two calendar days apart, which is within the three-day window.
+- Their combined total is LKR 135,000, which exceeds LKR 100,000.
+
+**Why it matters**
+- Each PR on its own is LKR 100,000 or less, so each needed only line-manager approval (P01, Rule 1).
+- As one PR of LKR 135,000, it would have needed approval from both the department head and the finance manager before a PO was issued (P01, Rule 2).
+- The split may therefore have avoided the higher approval tier. Whether it did, and why, is for the investigation to determine.
+
+**What the policy does not trigger**
+- The three-quotation requirement does not apply. It covers PRs above LKR 250,000, and the combined LKR 135,000 is below that (P01, Rule 7).
+
+**What the source does not establish**
+- Whether any approvals were obtained, or who gave them.
+- Whether the requester approved their own PRs, which Rule 3 forbids.
+- Whether POs were issued or funds committed.
+- Whether a written CFO exception exists (Rule 4).
+- The business reason for raising two PRs.
+- Intent, or any financial loss.
+
+**Recommended next action**
+1. Refer the case to a human reviewer as a potential split purchase.
+2. Obtain both PRs, their approval records with timestamps, the related POs, and any written CFO authorization recorded before funds were committed (P01, Rules 1–4).
+3. Ask the requester and line manager for the business justification for raising two PRs.
+4. Retain all records for 24 months after purchase closure (P01, Rule 8).

@@ -1,0 +1,13 @@
+**Answer (P03, item 2):** High-risk suppliers must be reviewed **quarterly**. Each review record should capture:
+
+- **Decisions** made in the review
+- **Ownership** (who is accountable)
+- **Follow-up actions**
+
+**What P03 does not establish:**
+- What triggers a "High-risk" classification, or who assigns it.
+- A required format, approver, or sign-off for the review record.
+- A retention period for supplier review records. The 12-month retention in item 6 applies only to user-access review logs, so it should not be assumed to cover supplier reviews.
+- Deadlines for completing follow-up actions, or how to escalate them.
+
+**Recommended next action:** Sample the High-risk supplier population and check that each supplier has a review in every quarter of the audit period, and that each record documents decisions, an owner, and follow-up actions. Treat any missing quarter or incomplete record as a potential exception for human review. Separately, ask the policy owner to clarify the risk-classification criteria and the record-retention requirement, since P03 is silent on both.

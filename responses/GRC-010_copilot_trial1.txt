@@ -1,0 +1,9 @@
+High-risk suppliers must be reviewed quarterly. The review record should contain decisions, ownership, and follow-up actions. (Policy P03, Supplier Governance §2)
+
+Conclusion:
+
+Review frequency: Quarterly. (Policy ID: P03)
+Required record contents: decisions, ownership, and follow-up actions. (Policy ID: P03)
+
+Recommended next action:
+ When testing compliance, verify that each High-risk supplier has a quarterly review record and that the record documents decisions made, the responsible owner, and any follow-up actions. (Policy ID: P03)

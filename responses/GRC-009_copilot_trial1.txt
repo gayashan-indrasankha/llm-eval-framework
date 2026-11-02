@@ -1,0 +1,7 @@
+Verification required:
+
+The supplier’s bank-detail change request must be verified by independently calling the supplier using a previously verified phone number. Verification evidence must be retained. An email requesting the change is not sufficient by itself. (Policy ID: P02, Section 7)
+
+Conclusion: Based on P02, the organization should not update the supplier’s bank account details solely because of the email. The required independent telephone verification and evidence retention must occur first. (Policy ID: P02, Section 7)
+
+Recommended next action: Place the bank-change request into the verification process, contact the supplier via a previously verified phone number, document the verification, and only then proceed with any bank-detail update if confirmed. (Policy ID: P02, Section 7)

@@ -1,0 +1,18 @@
+**Required verification (P02, item 7)**
+
+- **The email alone is not enough.** P02 says an email asking for a bank-detail change cannot justify the change by itself.
+- **Call the supplier independently.** Before changing the bank details, Accounts Payable must call the supplier on a **previously verified phone number**. That means a number already on file and verified, not one given in the requesting email (this last point follows from the requirement for an independent call on a previously verified number).
+- **Keep the evidence.** The verification evidence must be retained.
+
+**The "immediate payment" request**
+
+- P02 has no exception for urgency, so the request does not waive the call-back.
+- Any payment still needs a **three-way match** of purchase order, receipt or acceptance, and invoice (P02, item 1), plus the approvals required under **P01** or a recorded written CFO exception (P02, item 3). P01 was not provided, so I can't state the specific approval requirements.
+
+**What the sources don't establish**
+
+- Whether this request is fraudulent. It is a potential exception for human review, not proven fraud, and no financial loss is established.
+- What severity level to assign. P02, item 8 sets review timelines for High (2 business days) and Medium (5 business days) alerts but does not say how to classify a bank-change request.
+- What to do if the call-back fails or contradicts the email.
+
+**Recommended next action:** Don't update the bank details or release payment to the new account until the independent call-back on the previously verified number is done and documented. Escalate the request for human review, and confirm with the control owner what severity to assign and how to handle a failed verification.

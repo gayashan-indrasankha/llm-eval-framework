@@ -1,0 +1,13 @@
+**Answer (P03, Supplier governance, item 2):** High-risk suppliers must be reviewed **quarterly**. Each review record must contain three things:
+
+- **Decisions** made in the review
+- **Ownership**, meaning who is accountable
+- **Follow-up actions**
+
+**What P03 does not establish:**
+
+- **How "High-risk" is defined.** P03 gives no criteria for classifying a supplier as High-risk, and no review frequency for other risk tiers.
+- **Who performs the review.** P03 requires a supplier risk owner at onboarding (item 1), but it does not say that person conducts the quarterly review.
+- **Format, approval and retention of the record.** P03 sets none of these for supplier reviews. The 12-month retention in item 6 applies only to user-access review logs, so it should not be assumed to cover supplier reviews.
+
+**Recommended next action:** Ask for the High-risk supplier list and the last four quarters of review records. Test each record for timeliness (one per quarter) and for all three required elements. Treat any missing quarter or missing element as a potential exception for human review, not a confirmed control failure. Separately, ask management how they classify suppliers as High-risk and how long they keep these records, since P03 is silent on both.

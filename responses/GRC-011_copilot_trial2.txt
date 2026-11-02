@@ -1,0 +1,9 @@
+Answer: The access-control deadline is to revoke the departing employee’s access within 24 hours of receiving the official HR departure notice and retain evidence that the action was completed. Policy ID: P03, Access Governance §5.
+
+Factual conclusion:
+
+Access must be revoked within 24 hours of the official HR departure notice. Source: P03 §5.
+Evidence of the revocation action must be retained. Source: P03 §5.
+
+Recommended next action:
+ Verify that access to the relevant finance applications was removed within the 24-hour window and that evidence of the revocation was retained, as required by P03 §5.

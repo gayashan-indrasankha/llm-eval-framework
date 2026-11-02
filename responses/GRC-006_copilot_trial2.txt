@@ -1,0 +1,10 @@
+No. P01’s specific split-purchase screening rule does not trigger in this scenario.
+
+Reason:
+
+The two PRs are for LKR 70,000 and LKR 65,000, giving a combined total of LKR 135,000, which exceeds LKR 100,000. However, the rule only applies when the same requester, supplier, and purchasing category have two or more PRs within three calendar days. (P01 Rule 5)
+These PRs occurred five calendar days apart, which is outside the three-day window. (P01 Rule 6)
+
+Conclusion: The transaction pattern does not meet P01’s specific split-purchase screening rule. (P01 Rules 5 and 6)
+
+Recommended next action: No split-purchase flag is required under this specific rule. If there are other risk indicators, additional review may still be appropriate because Rule 6 states that purchases more than three days apart may merit other checks. (P01 Rule 6)

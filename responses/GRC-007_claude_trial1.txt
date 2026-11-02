@@ -1,0 +1,14 @@
+**Conclusion:** Treat the two records as a **potential invoice duplicate**. Flag them for investigation and **hold payment** on both until review is complete (P02, item 4).
+
+**What the policy supports**
+- Matching supplier ID, invoice number and currency meets the defined criteria for a potential invoice duplicate. These records should be flagged and held pending review (P02, item 4).
+- This does **not** by itself establish financial loss or fraud (P02, item 6). Report it as an exception for human review, not a confirmed duplicate.
+- If either record has already been paid, also check for a potential duplicate-payment exception. Before concluding anything, confirm the payment status and whether any payment was partial or reversed (P02, item 5).
+- Before any payment is released, the three-way match (approved PO, goods receipt or service acceptance, invoice) must still be completed (P02, item 1). The required approvals under P01, or a recorded CFO exception, also apply (P02, item 3).
+
+**What the source does not establish**
+- P02 does not say what severity a potential invoice duplicate should get. So it does not settle whether the 2-day (High) or 5-day (Medium) review target applies (P02, item 8).
+- P02 does not say which record is legitimate or how a confirmed duplicate should be resolved.
+- P01's approval requirements are not in the documents provided.
+
+**Recommended next action:** Put both invoice records on payment hold and log the exception for investigation. Check payment history for both records, including any partial or reversed payments. Assign a reviewer, and have a human set the severity, since P02 does not specify it.

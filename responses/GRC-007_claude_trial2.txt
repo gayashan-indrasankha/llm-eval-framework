@@ -1,0 +1,11 @@
+**Answer (P02, Duplicate controls):**
+
+- **Flag as a potential invoice duplicate.** Two invoice records with the same supplier ID, invoice number and currency meet the definition of a potential invoice duplicate (P02 §4).
+- **Hold payment pending review.** The records should be flagged for investigation and held until the review is done (P02 §4).
+- **Do not treat it as loss or fraud.** A potential duplicate does not by itself establish financial loss or fraud (P02 §6). It is an exception for human review, not a confirmed finding.
+
+**Not established by the source:**
+- Whether either invoice has already been paid. If both were paid in full, that would be a separate potential duplicate-payment exception under P02 §5, which requires checking payment status and any partial or reversed payments before concluding anything. The question doesn't say whether payments were made.
+- The severity rating for this exception. P02 §8 sets review targets of 2 business days for High and 5 business days for Medium, but P02 doesn't say which severity applies to a duplicate invoice.
+
+**Recommended next action:** Hold both invoice records. Log the exception and assign it for human review. Check the payment ledger to confirm whether either invoice has been paid, partially paid or reversed. Then confirm the three-way match (PO, goods receipt or service acceptance, invoice) for the legitimate record before any payment is released (P02 §1–2).

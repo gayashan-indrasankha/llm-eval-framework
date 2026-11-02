@@ -1,0 +1,8 @@
+Control gap:
+ The PR amount is LKR 145,000, which is above LKR 100,000. Therefore, it requires approval from both the department head and the finance manager before a PO is issued. Receiving only the line manager's approval does not satisfy the required approval control. Policy ID: P01, Rule 2.
+
+Additional consideration:
+ If the requester approved their own PR, that would be a separate violation. However, the facts provided do not establish that this occurred. Policy ID: P01, Rule 3.
+
+Recommended next step:
+ Do not proceed with issuing the PO until the required approvals from the department head and finance manager are obtained. If procurement has already proceeded, escalate for control-exception review and verify whether a valid written CFO authorization existed before funds were committed. Policy IDs: P01, Rule 2; P01, Rule 4.

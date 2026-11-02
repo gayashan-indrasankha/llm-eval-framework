@@ -1,0 +1,14 @@
+**Answer (P03, item 5):** The finance employee's access must be revoked **within 24 hours of receiving the official HR departure notice**, and **evidence of the revocation must be kept**.
+
+**Points to note:**
+- The 24-hour clock starts when the HR notice is **received**, not on the employee's last working day (P03, item 5).
+- The finance application is also covered by the **quarterly user-access reviews** (P03, item 4). Those reviews are a secondary check that could catch a revocation that was missed.
+
+**What P03 does not establish:**
+- Whether "24 hours" means clock hours or business hours, which matters for notices received at weekends or holidays.
+- Who is responsible for performing or confirming the revocation.
+- Which systems count as "access." Item 5 is not limited to procurement and finance applications.
+- How long revocation evidence must be retained. The 12-month period in item 6 applies to user-access review logs, not explicitly to revocation evidence.
+- What escalation is required if the deadline is missed.
+
+**Recommended next action:** For a sample of departing finance employees, compare the timestamp when the HR notice was received with the timestamp of access removal, and confirm that revocation evidence exists. Flag any case over 24 hours, or with no evidence, as a potential exception for human review. Ask the policy owner to clarify how hours are counted and how long revocation evidence must be kept.

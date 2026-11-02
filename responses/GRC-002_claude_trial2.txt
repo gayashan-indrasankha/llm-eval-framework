@@ -1,0 +1,16 @@
+**Answer:** No. A PR for exactly LKR 100,000 is **not** above the threshold.
+
+- **Threshold:** PRs of "LKR 100,000 or less" need only line manager approval. The higher tier applies only to amounts *above* LKR 100,000. **(P01, Rule 1 vs. Rule 2)**
+- **Who approves:** The requester's **line manager**, and the approval must be given **before** the PO is issued. **(P01, Rule 1)**
+- **Not required:** Approval from the department head and the finance manager. **(P01, Rule 2)**
+- **Constraint:** The requester cannot approve their own PR, even if their job title would otherwise allow it. **(P01, Rule 3)**
+- **Not applicable:** Three competitive quotations, which apply only above LKR 250,000. **(P01, Rule 7)**
+
+**Watch point:** A PR sitting exactly at the ceiling is a reason to run the split-purchase screen. If the same requester, supplier and category have another PR within three calendar days, and the combined total exceeds LKR 100,000, flag it as a potential split purchase for human investigation. This is a screening flag, not proof of misconduct. **(P01, Rules 5–6)**
+
+**Recommended next action:**
+1. Confirm the line manager's approval is dated before the PO issue date.
+2. Confirm the approver is not the requester.
+3. Query the PR log for related PRs within ±3 calendar days.
+
+The source does not say whether any such related PRs exist.

@@ -1,0 +1,13 @@
+**Answer:** The PR needs approval from the **requester's line manager before the PO is issued** (P01, Rule 1), because LKR 85,000 is at or below the LKR 100,000 threshold.
+
+**Related conditions from P01:**
+- **No self-approval (Rule 3):** The requester cannot approve their own PR, even if their job title would otherwise allow it.
+- **Not required:** Department head plus finance manager approval applies only above LKR 100,000 (Rule 2). Three quotations apply only above LKR 250,000 (Rule 7).
+- **Split-purchase screening (Rule 5):** This PR alone does not trigger a flag. If the same requester, supplier, and category had other PRs within three calendar days and the combined total exceeds LKR 100,000, flag it as a potential split purchase for human investigation. This would not prove misconduct.
+
+**What P01 does not establish:** It does not say who approves if the line manager is unavailable, or how approval must be documented beyond keeping records for 24 months after closure (Rule 8).
+
+**Recommended next action:**
+1. Confirm a line-manager approval is on file and dated before the PO issue date.
+2. Confirm the approver is not the requester.
+3. Check for other PRs from the same requester, supplier, and category within three calendar days.

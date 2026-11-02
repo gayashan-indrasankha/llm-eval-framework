@@ -1,0 +1,14 @@
+No. Payment should not be released.
+
+Reasoning:
+
+The policy requires a three-way match among:
+the approved purchase order,
+the goods receipt or documented service acceptance, and
+the supplier invoice before releasing payment. (P02 §1)
+In this scenario, the goods receipt or documented service acceptance is missing, so the three-way match is incomplete. (P02 §1)
+When an item required for the three-way match is missing, the policy instructs Accounts Payable to hold payment and request review; it specifically says not to invent missing evidence. (P02 §2)
+
+Conclusion: Payment should be held, not released. The absence of a goods receipt or documented service acceptance means the required three-way match has not been completed. (P02 §§1–2)
+
+Recommended next action: Obtain the missing goods receipt or documented service acceptance, or escalate for review in accordance with the policy before any payment is released. (P02 §2)
