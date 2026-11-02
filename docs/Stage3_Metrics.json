@@ -1,0 +1,209 @@
+{
+  "records": 48,
+  "cases": [
+    {
+      "case_id": "GRC-001",
+      "short_name": "LKR 85k approval",
+      "category": "approval_threshold",
+      "claude_t1": 23,
+      "claude_t2": 23,
+      "copilot_t1": 24,
+      "copilot_t2": 24,
+      "claude_delta": 0,
+      "copilot_delta": 0
+    },
+    {
+      "case_id": "GRC-002",
+      "short_name": "LKR 100k threshold",
+      "category": "approval_threshold",
+      "claude_t1": 22,
+      "claude_t2": 22,
+      "copilot_t1": 24,
+      "copilot_t2": 24,
+      "claude_delta": 0,
+      "copilot_delta": 0
+    },
+    {
+      "case_id": "GRC-003",
+      "short_name": "LKR 145k approvals",
+      "category": "approval_threshold",
+      "claude_t1": 22,
+      "claude_t2": 22,
+      "copilot_t1": 23,
+      "copilot_t2": 24,
+      "claude_delta": 0,
+      "copilot_delta": 1
+    },
+    {
+      "case_id": "GRC-004",
+      "short_name": "Self-approval",
+      "category": "segregation_of_duties",
+      "claude_t1": 23,
+      "claude_t2": 23,
+      "copilot_t1": 24,
+      "copilot_t2": 24,
+      "claude_delta": 0,
+      "copilot_delta": 0
+    },
+    {
+      "case_id": "GRC-005",
+      "short_name": "Split purchase: 2 days",
+      "category": "split_purchase",
+      "claude_t1": 21,
+      "claude_t2": 22,
+      "copilot_t1": 24,
+      "copilot_t2": 24,
+      "claude_delta": 1,
+      "copilot_delta": 0
+    },
+    {
+      "case_id": "GRC-006",
+      "short_name": "Split purchase: 5 days",
+      "category": "split_purchase",
+      "claude_t1": 23,
+      "claude_t2": 23,
+      "copilot_t1": 24,
+      "copilot_t2": 24,
+      "claude_delta": 0,
+      "copilot_delta": 0
+    },
+    {
+      "case_id": "GRC-007",
+      "short_name": "Duplicate invoice",
+      "category": "duplicate_invoice",
+      "claude_t1": 23,
+      "claude_t2": 23,
+      "copilot_t1": 24,
+      "copilot_t2": 24,
+      "claude_delta": 0,
+      "copilot_delta": 0
+    },
+    {
+      "case_id": "GRC-008",
+      "short_name": "Three-way match",
+      "category": "payment_matching",
+      "claude_t1": 23,
+      "claude_t2": 23,
+      "copilot_t1": 24,
+      "copilot_t2": 24,
+      "claude_delta": 0,
+      "copilot_delta": 0
+    },
+    {
+      "case_id": "GRC-009",
+      "short_name": "Supplier bank change",
+      "category": "bank_change",
+      "claude_t1": 23,
+      "claude_t2": 23,
+      "copilot_t1": 24,
+      "copilot_t2": 24,
+      "claude_delta": 0,
+      "copilot_delta": 0
+    },
+    {
+      "case_id": "GRC-010",
+      "short_name": "High-risk supplier review",
+      "category": "third_party_governance",
+      "claude_t1": 23,
+      "claude_t2": 23,
+      "copilot_t1": 24,
+      "copilot_t2": 24,
+      "claude_delta": 0,
+      "copilot_delta": 0
+    },
+    {
+      "case_id": "GRC-011",
+      "short_name": "Access revocation",
+      "category": "access_governance",
+      "claude_t1": 23,
+      "claude_t2": 23,
+      "copilot_t1": 24,
+      "copilot_t2": 24,
+      "claude_delta": 0,
+      "copilot_delta": 0
+    },
+    {
+      "case_id": "GRC-012",
+      "short_name": "ISO 27001 unsupported claim",
+      "category": "uncertainty_and_non_invention",
+      "claude_t1": 23,
+      "claude_t2": 23,
+      "copilot_t1": 24,
+      "copilot_t2": 24,
+      "claude_delta": 0,
+      "copilot_delta": 0
+    }
+  ],
+  "models": 2,
+  "trials_per_model_case": 2,
+  "user_approved": 48,
+  "raw_file_present": 48,
+  "hash_matches": 12,
+  "missing_timestamps": 44,
+  "definitive_fabrication_tags": 0,
+  "accuracy_4_of_4": 48,
+  "coverage_4_of_4": 48,
+  "risk_awareness_4_of_4": 48,
+  "score_changes": [
+    [
+      "GRC-003",
+      "Microsoft Copilot",
+      23,
+      24
+    ],
+    [
+      "GRC-005",
+      "Claude",
+      21,
+      22
+    ]
+  ],
+  "gap_breakdown": {
+    "Accuracy": 0,
+    "Coverage": 0,
+    "Groundedness": 2,
+    "Instruction following": 24,
+    "Clarity": 4,
+    "Risk awareness": 0
+  },
+  "gap_total_points": 30,
+  "instruction_following_share_percent": 80.0,
+  "stats": {
+    "Claude": {
+      "n": 24,
+      "total": 545,
+      "possible": 576,
+      "mean": 22.708333333333332,
+      "percentage": 94.61805555555556,
+      "dimensions": {
+        "Accuracy": 96,
+        "Coverage": 96,
+        "Groundedness": 93,
+        "Instruction following": 72,
+        "Clarity": 92,
+        "Risk awareness": 96
+      },
+      "trial_1": 272,
+      "trial_2": 273,
+      "mean_words": 237.16666666666666
+    },
+    "Microsoft Copilot": {
+      "n": 24,
+      "total": 575,
+      "possible": 576,
+      "mean": 23.958333333333332,
+      "percentage": 99.82638888888889,
+      "dimensions": {
+        "Accuracy": 96,
+        "Coverage": 96,
+        "Groundedness": 95,
+        "Instruction following": 96,
+        "Clarity": 96,
+        "Risk awareness": 96
+      },
+      "trial_1": 287,
+      "trial_2": 288,
+      "mean_words": 120.125
+    }
+  }
+}

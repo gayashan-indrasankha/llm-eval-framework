@@ -1,9 +1,11 @@
+# Local Python artifacts and secrets
 __pycache__/
 *.py[cod]
 .venv/
 .env
 .env.*
 !.env.example
-responses/
-private_evidence/
 *.log
+private_evidence/
+# The 48 synthetic raw responses in responses/ are intentionally versioned.
+# Do not add real personal, organizational, or confidential responses.

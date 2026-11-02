@@ -1,4 +1,4 @@
-"""Validate the synthetic benchmark design; no LLM calls or score claims."""
+"""Validate the synthetic benchmark design; does not call or score LLMs."""
 import json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
@@ -22,4 +22,4 @@ def check_cases():
 
 if __name__=='__main__':
     n=check_cases()
-    print(f'Dataset validation: PASS ({n} synthetic cases, no model evaluations executed)')
+    print(f'Dataset validation: PASS ({n} synthetic cases; model results not assessed by this check)')
