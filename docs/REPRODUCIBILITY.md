@@ -14,7 +14,7 @@ python -m unittest discover -s tests -p "test_*.py" -v
 python scripts/stage3_analyze.py
 ```
 
-Expected outcomes: **7 passing tests**, 12 cases, 48 rows and unique run IDs, 48 raw files, 12/12 archived prompt hashes, 48 human-approval labels, Claude **545/576**, Copilot **575/576**, and **44 blank execution timestamps**.
+Expected outcomes: **9 passing tests**, 12 cases, 48 rows and unique run IDs, 48 raw files, 12/12 archived prompt hashes, 48 human-approval labels, Claude **545/576**, Copilot **575/576**, and **44 blank execution timestamps**.
 
 To save a fresh machine-readable metrics file without replacing the archived snapshot:
 
