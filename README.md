@@ -60,43 +60,33 @@ So I designed and ran a benchmark that compares **Claude** and **Microsoft Copil
 
 ## How I built it
 
-The work runs in five stages. Python handles everything that can be automated and checked. The chat sessions were run by hand, because I was evaluating the products as people really use them.
+The work runs from policy to report. Python handles everything that can be automated and checked. The chat sessions were run by hand, because I was evaluating the products as people really use them.
 
 ```mermaid
 flowchart TD
-    subgraph S1["1. Define the benchmark"]
-        A["3 fictional policies<br/>procurement, accounts payable,<br/>supplier and access governance"]
-        B["12 test cases<br/>33 reference points, 20 red flags"]
-    end
-    subgraph S2["2. Lock the prompts"]
-        C["build_prompts.py<br/>deterministic generator"]
-        D["12 archived prompts<br/>+ SHA-256 manifest"]
-    end
-    subgraph S3["3. Collect responses by hand"]
-        E["Claude app<br/>2 trials per case"]
-        F["Microsoft Copilot app<br/>2 trials per case"]
-        G["48 raw answers<br/>versioned in Git"]
-    end
-    subgraph S4["4. Score and approve"]
-        H["Six-dimension rubric, 0 to 4 each<br/>AI-assisted, approved by me"]
-        I["evaluation_runs.csv<br/>scores + written rationale"]
-    end
-    subgraph S5["5. Verify and report"]
-        J["stage3_analyze.py<br/>+ 9 integrity tests"]
-        K["Comparative report<br/>+ Excel dashboard"]
-    end
-    A --> C
+    A["<b>Define the benchmark</b><br/>3 fictional policies, 12 test cases,<br/>33 reference points, 20 red flags"]
+    B["<b>Lock the prompts</b><br/>build_prompts.py creates 12 prompts<br/>and a SHA-256 manifest"]
+    C["<b>Claude app</b><br/>2 fresh-chat trials per case"]
+    D["<b>Microsoft Copilot app</b><br/>2 fresh-chat trials per case"]
+    E["<b>Archive the evidence</b><br/>48 raw answers versioned in Git"]
+    F["<b>Score and approve</b><br/>Six-dimension rubric, AI-assisted,<br/>each score approved by me"]
+    G["<b>Verify</b><br/>stage3_analyze.py and 9 integrity tests"]
+    H["<b>Report</b><br/>Comparative analysis and Excel dashboard"]
+    A --> B
     B --> C
-    C --> D
+    B --> D
+    C --> E
     D --> E
-    D --> F
-    E --> G
+    E --> F
     F --> G
     G --> H
-    H --> I
-    I --> J
-    J --> K
+    classDef auto fill:#D6E6DA,stroke:#14523B,color:#10261E
+    classDef manual fill:#F6E3B8,stroke:#9A6B12,color:#10261E
+    class A,B,E,G,H auto
+    class C,D,F manual
 ```
+
+*Green steps are files and scripts in this repository. Amber steps involved people or AI apps working outside it.*
 
 ### The test cases
 
@@ -171,13 +161,12 @@ flowchart RL
 
 Both products scored **4/4 on accuracy, coverage and risk awareness in all 48 responses**. The 30-point gap came from three other dimensions:
 
-```mermaid
-pie showData
-    title Where the 30-point gap came from
-    "Instruction following" : 24
-    "Clarity" : 4
-    "Groundedness" : 2
-```
+| Dimension | Claude | Copilot | Points of the gap | Share of the gap |
+|---|---:|---:|---:|---:|
+| **Instruction following** | 72/96 | 96/96 | **24** | **80.0%** |
+| Clarity | 92/96 | 96/96 | 4 | 13.3% |
+| Groundedness | 93/96 | 95/96 | 2 | 6.7% |
+| Accuracy, coverage, risk awareness | 288/288 | 288/288 | 0 | 0% |
 
 The prompt asked for a concise answer, and Claude's answers averaged about twice the length of Copilot's. I then ran a sensitivity check that removes instruction following: the gap narrows from 5.21 to **1.25 percentage points** (98.54% vs 99.79%). This check is post-hoc and descriptive. It helps explain the score but does not replace the approved rubric.
 
