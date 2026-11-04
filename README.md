@@ -63,15 +63,15 @@ So I designed and ran a benchmark that compares **Claude** and **Microsoft Copil
 The work runs from policy to report. Python handles everything that can be automated and checked. The chat sessions were run by hand, because I was evaluating the products as people really use them.
 
 ```mermaid
-flowchart TD
-    A["<b>Define the benchmark</b><br/>3 fictional policies, 12 test cases,<br/>33 reference points, 20 red flags"]
-    B["<b>Lock the prompts</b><br/>build_prompts.py creates 12 prompts<br/>and a SHA-256 manifest"]
-    C["<b>Claude app</b><br/>2 fresh-chat trials per case"]
-    D["<b>Microsoft Copilot app</b><br/>2 fresh-chat trials per case"]
-    E["<b>Archive the evidence</b><br/>48 raw answers versioned in Git"]
-    F["<b>Score and approve</b><br/>Six-dimension rubric, AI-assisted,<br/>each score approved by me"]
-    G["<b>Verify</b><br/>stage3_analyze.py and 9 integrity tests"]
-    H["<b>Report</b><br/>Comparative analysis and Excel dashboard"]
+flowchart LR
+    A["<b>Define</b><br/>3 policies<br/>12 cases"]
+    B["<b>Lock</b><br/>12 prompts<br/>SHA-256"]
+    C["<b>Claude</b><br/>2 trials<br/>per case"]
+    D["<b>Copilot</b><br/>2 trials<br/>per case"]
+    E["<b>Archive</b><br/>48 raw<br/>answers"]
+    F["<b>Score</b><br/>6 dimensions<br/>approved"]
+    G["<b>Verify</b><br/>9 tests<br/>audit script"]
+    H["<b>Report</b><br/>analysis<br/>dashboard"]
     A --> B
     B --> C
     B --> D
